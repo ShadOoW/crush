@@ -11,6 +11,20 @@
 
 <p align="center"><img width="800" alt="Crush Demo" src="https://github.com/user-attachments/assets/58280caf-851b-470a-b6f7-d5c4ea8a1968" /></p>
 
+## How to Keep Updated
+
+After pushing, to pull upstream changes from Charm:
+
+### Add upstream remote (one time)
+git remote add upstream https://github.com/charmbracelet/crush.git
+
+### Fetch and merge upstream
+git fetch upstream
+git merge upstream/main
+
+### Push to fork
+git push origin main
+
 ## Features
 
 - **Multi-Model:** choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs
@@ -781,3 +795,4 @@ Part of [Charm](https://charm.land).
 
 <!--prettier-ignore-->
 Charm热爱开源 • Charm loves open source
+
